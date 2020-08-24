@@ -1,0 +1,7 @@
+Note: you have to setup the sandbox api first to activate this bot
+steps:
+1. set url on ngrok by ' ngrok http 5000 ' (5000 is host number of generated url)
+2. one url will be generated, paste it on twilio (' when a msg comes in ') box
+3. add ' /sms ' to generated url and save it there( save 2 times)
+4. run echo_bot.py file
+5. next send msgs through whatsapp
